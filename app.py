@@ -422,12 +422,16 @@ st.markdown("""
 - **Visible Progress:** Clear insights into what your child understands and where they need targeted support.
 """)
 
-# WhatsApp Booking CTA Button for sameer's Uncle
-whatsapp_number = "919876543210" # Replace with your uncle's actual WhatsApp number
-msg = f"Hi StudyMast! My child just finished the {grade} Assessment with a score of {score}/{total}. I'd love to book a free demo class."
+# WhatsApp Booking CTA Button
+whatsapp_number = "919999999999"  # Replace with your uncle's actual WhatsApp number
+msg = f"Hi StudyMast! My child just finished the {grade} Diagnostic with a score of {score}/{total} ({percentage}%). I'd love to book a free demo class."
 whatsapp_url = f"https://wa.me/{whatsapp_number}?text={msg.replace(' ', '%20')}"
 
-st.link_button("📱 Book a Free Demo Class on WhatsApp", whatsapp_url)
+st.markdown(
+    f'<a href="{whatsapp_url}" target="_blank" class="whatsapp-btn">💬 Book a'
+    " Free Demo Class on WhatsApp</a>",
+    unsafe_allow_html=True,
+)
 
 st.markdown("")
 if st.button("🔄 PLAY AGAIN ", use_container_width=True):
