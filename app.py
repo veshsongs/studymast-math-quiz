@@ -234,7 +234,7 @@ topic_importance = {
 }
 
 
-# ---------------- 10-QUESTION CLEAN DIAGNOSTIC BANK ----------------
+# ---------------- EXPANDED DYNAMIC QUESTION BANKS ----------------
 
 quiz_bank = {
     "Class 1": [
@@ -273,6 +273,11 @@ quiz_bank = {
             ["Sunday", "Tuesday", "Wednesday", "Friday"],
             "Tuesday",
         ),
+        ("Addition", "5 + 6 = ?", ["10", "11", "12", "9"], "11"),
+        ("Subtraction", "10 - 4 = ?", ["5", "6", "7", "8"], "6"),
+        ("Number sense", "Which number is smaller: 14 or 21?", ["14", "21", "Both", "None"], "14"),
+        ("Shapes", "How many corners does a square have?", ["3", "4", "5", "6"], "4"),
+        ("Patterns", "5, 10, 15, __", ["18", "20", "25", "30"], "20"),
     ],
     "Class 2": [
         ("Addition", "47 + 28 = ?", ["65", "75", "85", "74"], "75"),
@@ -290,6 +295,11 @@ quiz_bank = {
             ["6", "9", "12", "3"],
             "12",
         ),
+        ("Addition", "34 + 19 = ?", ["53", "54", "43", "63"], "53"),
+        ("Multiplication", "4 × 6 = ?", ["20", "24", "28", "18"], "24"),
+        ("Place value", "Which digit is in the tens place in 482?", ["4", "8", "2", "0"], "8"),
+        ("Subtraction", "50 - 18 = ?", ["32", "42", "22", "28"], "32"),
+        ("Measurement", "Which is heavier: 1 kg feathers or 1 kg iron?", ["Feathers", "Iron", "Both equal", "Cannot tell"], "Both equal"),
     ],
     "Class 3": [
         ("Multiplication", "24 × 3 = ?", ["62", "72", "82", "64"], "72"),
@@ -327,6 +337,11 @@ quiz_bank = {
             ["Monday", "Tuesday", "Thursday", "Friday"],
             "Tuesday",
         ),
+        ("Multiplication", "9 × 9 = ?", ["81", "72", "90", "80"], "81"),
+        ("Division", "45 ÷ 5 = ?", ["8", "9", "10", "7"], "9"),
+        ("Fractions", "Which is greater: 1/3 or 1/2?", ["1/3", "1/2", "Equal", "None"], "1/2"),
+        ("Perimeter", "Rectangle with length 6 cm and width 4 cm. Perimeter?", ["20 cm", "24 cm", "10 cm", "12 cm"], "20 cm"),
+        ("Word problem", "A pack has 12 pens. 4 packs have how many?", ["36", "48", "42", "50"], "48"),
     ],
     "Class 4": [
         ("Multiplication", "126 × 4 = ?", ["484", "504", "514", "404"], "504"),
@@ -369,6 +384,11 @@ quiz_bank = {
             ["20", "24", "10", "12"],
             "24",
         ),
+        ("Division", "640 ÷ 8 = ?", ["70", "80", "90", "60"], "80"),
+        ("Fractions", "Add: 2/5 + 1/5 =", ["3/10", "3/5", "2/25", "3/25"], "3/5"),
+        ("Decimals", "Write 3 tenths as a decimal", ["0.3", "0.03", "3.0", "0.003"], "0.3"),
+        ("Estimation", "Estimate 38 + 51 by rounding to nearest 10", ["80", "90", "100", "85"], "90"),
+        ("Area", "Side of square is 5m. Area?", ["20 m²", "25 m²", "10 m²", "30 m²"], "25 m²"),
     ],
     "Class 5": [
         ("Multiplication", "248 × 16 = ?", ["3,868", "3,968", "3,986", "3,768"], "3,968"),
@@ -401,6 +421,11 @@ quiz_bank = {
             ["8", "9", "10", "11"],
             "11",
         ),
+        ("Factors", "Find HCF of 12 and 18", ["3", "6", "9", "2"], "6"),
+        ("Percentages", "25% of 200 = ?", ["25", "50", "75", "100"], "50"),
+        ("Decimals", "0.4 × 0.5 = ?", ["0.2", "2.0", "0.02", "0.20"], "0.2"),
+        ("Volume", "A box has length 4, width 3, height 2. Volume?", ["12", "24", "18", "9"], "24"),
+        ("Word problem", "Rohan has 45 marbles. He gives 1/3 away. How many left?", ["15", "30", "20", "25"], "30"),
     ],
     "Class 6": [
         ("Integers", "-8 + 15 = ?", ["-23", "-7", "7", "23"], "7"),
@@ -428,6 +453,11 @@ quiz_bank = {
             ["25", "30", "35", "40"],
             "30",
         ),
+        ("Integers", "-15 - (-5) = ?", ["-20", "-10", "10", "20"], "-10"),
+        ("Ratio", "If ratio of boys to girls is 3:2 and there are 30 boys, how many girls?", ["15", "20", "25", "10"], "20"),
+        ("Algebra", "Evaluate 5x - 3 when x = 4", ["17", "20", "13", "23"], "17"),
+        ("Geometry", "Sum of interior angles of a quadrilateral is?", ["180°", "360°", "270°", "90°"], "360°"),
+        ("Statistics", "Mode of data set: 2, 4, 4, 6, 2, 4, 5", ["2", "4", "5", "6"], "4"),
     ],
     "Class 7": [
         ("Integers", "(-12) × (-5) = ?", ["-60", "-17", "17", "60"], "60"),
@@ -460,6 +490,11 @@ quiz_bank = {
             ["75%", "82.5%", "87.5%", "90%"],
             "87.5%",
         ),
+        ("Rational numbers", "Convert -0.75 into a fraction", ["-3/4", "-2/3", "-4/5", "-7/10"], "-3/4"),
+        ("Algebra", "Simplify: 4x + 3y - 2x + y", ["2x + 4y", "6x + 4y", "2x + 3y", "6x + 2y"], "2x + 4y"),
+        ("Arithmetic", "If a shirt costs ₹500 and is sold at 20% profit, selling price is?", ["₹550", "₹600", "₹650", "₹520"], "₹600"),
+        ("Geometry", "Area of a circle with radius 7 cm (use pi = 22/7)?", ["154 cm²", "44 cm²", "88 cm²", "308 cm²"], "154 cm²"),
+        ("Exponents", "Evaluate: (-2)³", ["-8", "8", "-6", "6"], "-8"),
     ],
     "Class 8": [
         (
@@ -502,6 +537,11 @@ quiz_bank = {
             ["₹2,000", "₹2,100", "₹2,200", "₹2,500"],
             "₹2,100",
         ),
+        ("Algebra", "Expand: (x + 5)²", ["x² + 25", "x² + 10x + 25", "x² + 5x + 25", "x² + 10x + 10"], "x² + 10x + 25"),
+        ("Geometry", "Sum of interior angles of a regular polygon with n sides is given by?", ["(n-2) × 180°", "n × 180°", "(n-2) × 90°", "2n × 180°"], "(n-2) × 180°"),
+        ("Exponents", "Any non-zero number raised to power 0 is:", ["0", "1", "The number itself", "Undefined"], "1"),
+        ("Square roots", "Between which two consecutive integers does √50 lie?", ["6 and 7", "7 and 8", "5 and 6", "8 and 9"], "7 and 8"),
+        ("Direct/Inverse", "If x and y vary inversely and xy = 24, find y when x = 3", ["8", "72", "6", "12"], "8"),
     ],
 }
 
@@ -562,10 +602,10 @@ if not st.session_state.started:
     st.session_state.answers = {}
     st.session_state.answered = False
 
-    # Shuffle questions for fresh replay
-    shuffled_qs = list(quiz_bank[st.session_state.grade])
-    random.shuffle(shuffled_qs)
-    st.session_state.current_questions = shuffled_qs
+    # Pull a fresh random 10-question set from the expanded class pool!
+    pool = list(quiz_bank[st.session_state.grade])
+    random.shuffle(pool)
+    st.session_state.current_questions = pool[:10]
     st.rerun()
 
   st.caption("StudyMast · Learn a little. Grow a lot.")
