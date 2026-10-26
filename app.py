@@ -428,8 +428,7 @@ msg = f"Hi StudyMast! My child just finished the {grade} Diagnostic with a score
 whatsapp_url = f"https://wa.me/{whatsapp_number}?text={msg.replace(' ', '%20')}"
 
 st.markdown(
-    f'<a href="{whatsapp_url}" target="_blank" class="whatsapp-btn">💬 Book a'
-    " Free Demo Class on WhatsApp</a>",
+    f'<a href="{whatsapp_url}" target="_blank" class="whatsapp-btn">📱 Book a Free Demo Class on WhatsApp</a>',
     unsafe_allow_html=True,
 )
 
