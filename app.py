@@ -423,7 +423,7 @@ st.markdown("""
 """)
 
 # WhatsApp Booking CTA Button
-whatsapp_number = "919999999999"  # Replace with your uncle's actual WhatsApp number
+whatsapp_number = "919711156931"  # Uncle's actual WhatsApp number
 msg = f"Hi StudyMast! My child just finished the {grade} Diagnostic with a score of {score}/{total} ({percentage}%). I'd love to book a free demo class."
 whatsapp_url = f"https://wa.me/{whatsapp_number}?text={msg.replace(' ', '%20')}"
 
